@@ -2,14 +2,7 @@
 #!name= Bilibili.sdmodule
 #!desc=解锁Bilibili
 
-[Rule]
-# 去广告
-DOMAIN-SUFFIX,cm.bilibili.com,REJECT
-URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
-# 可能的一些推广(beta)
-URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
-# BiliBili漫画去广告
-URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.comic\/flash,REJECT
+
  
 [URL Rewrite]
 # 去除搜索中的大家都在搜
@@ -33,5 +26,5 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list requires-body=
 http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_标签页处理
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_我的页面处理
 
-[MitM]
+[MITM]
 hostname = %APPEND% app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,ap?.bilibili.com
