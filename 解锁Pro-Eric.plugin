@@ -1,0 +1,12 @@
+#!name=解锁Pro-Eric
+#!desc=@Mr.Eric
+#!icon=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netease.png
+
+[Script]
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers\/(\$RCAnonymousID%)?([\u4E00-\u9FA5A-Za-z0-9-_]+))$ script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/revenuecat.js,requires-body=1,timeout=10,tag=Pro
+http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers\/(\$RCAnonymousID%)?([\u4E00-\u9FA5A-Za-z0-9-_]+)) script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/bytq.js,requires-body=0,timeout=10,tag=RC
+http-response https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/verifyReceipt.js,requires-body=1,timeout=10,tag=Receipt
+
+
+[MITM]
+hostname = api.revenuecat.com,buy.itunes.apple.com
