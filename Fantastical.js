@@ -1,5 +1,7 @@
-# !url=https://raw.githubusercontent.com/MCdasheng/Module/main/Fantastical.js
-# @cuttlefish
+/*
+!url=https://raw.githubusercontent.com/MCdasheng/Module/main/Fantastical.js
+Unlocks by Cuttlefish 公众号：墨鱼手记
+*/
 
 let url = $request.url;
 const path1="v1/auth/device";
