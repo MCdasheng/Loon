@@ -1,3 +1,5 @@
+# !url=https://raw.githubusercontent.com/MCdasheng/Module/main/Fantastical.js
+# @cuttlefish
 let url = $request.url;
 const path1="v1/auth/device";
 const path2="v1/account/details";
