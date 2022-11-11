@@ -1,5 +1,5 @@
 /*
-自用备份 BiliBili 4K
+自用备份 BiliBili 🔐4K
 #!url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BiliBili_4K.js
 # From https://github.com/Sunert/Scripts/blob/master/Script/Bilibili/BiliHD.js
 -----------------------------------------------------------------------------------------------------------------------------------------------------
