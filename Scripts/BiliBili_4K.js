@@ -1,6 +1,9 @@
 /*
+自用备份 
+#!url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BiliBili_4K.js
+
 bilibili fan drama open 1080P+
-自用备份
+
 From https://github.com/Sunert/Scripts/blob/master/Script/Bilibili/BiliHD.js
 
 QX:
