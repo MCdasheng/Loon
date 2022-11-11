@@ -1,6 +1,7 @@
 /*
 自用备份 BiliBili 🚫AD
 #!url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BiliBili_AdBlock.js
+#@blackmatrix7
 */
 const scriptName = "BiliBili";
 const storyAidKey = "bilibili_story_aid";
