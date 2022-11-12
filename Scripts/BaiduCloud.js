@@ -1,12 +1,10 @@
 /*
-# 自用备份 BaiduCloud
-# !url=https://raw.githubusercontent.com/MCdasheng/Module/main/BaiduCloud.js
+# 自用备份 BaiduCloud 🔐4K & 2x speed
+# !url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BaiduCloud.js
 # @NobyDa
 # hostname = pan.baidu.com
 */
 
-
-**************************/
 
 if ($response.body) {
     $done({
