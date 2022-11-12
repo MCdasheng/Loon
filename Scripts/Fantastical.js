@@ -1,5 +1,5 @@
 /*
-!url=https://raw.githubusercontent.com/MCdasheng/Module/Scripts/main/Fantastical.js
+!url=https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/Fantastical.js
 Unlocks by Cuttlefish 公众号：墨鱼手记
 */
 
