@@ -1,7 +1,7 @@
 /*
 # 自用备份 Caiyun_SVIP
+# !url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/Caiyun_SVIP.js
 # @blackmatrix7
-# !url=https://raw.githubusercontent.com/MCdasheng/Module/main/Caiyun_SVIP.js
 # hostname = biz.caiyunapp.com
 */
 
