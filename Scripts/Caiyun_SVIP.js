@@ -1,7 +1,8 @@
 /*
 # 自用备份 Caiyun_SVIP
 # !url=https://raw.githubusercontent.com/MCdasheng/Module/main/Caiyun_SVIP.js
-3 @blackmatrix7
+# hostname = biz.caiyunapp.com
+# @blackmatrix7
 */
 
 const SCRIPT_NAME = '彩云天气';
