@@ -1,8 +1,8 @@
 #!name= 知乎助手Plus
 #!desc= 🚫AD & 功能增强
-#!author= blackmatrix7
 #!icon= https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.png
-#!url= https://raw.githubusercontent.com/MCdasheng/Module/main/Zhihu_Plus.plugin 
+# @blackmatrix7
+# url= https://raw.githubusercontent.com/MCdasheng/Module/main/Zhihu_Plus.plugin 
 #自用备份
 [Rule]
 # 知乎去广告
