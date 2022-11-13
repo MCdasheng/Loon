@@ -1,8 +1,8 @@
-#!name=Unlock_Pro
-#!desc=🔐通用解锁内购 
-#!author=Eric
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png
-#!url=https://raw.githubusercontent.com/MCdasheng/Module/main/Unlock_Pro.plugin
+#!name= Unlock_Pro
+#!desc= 🔐通用解锁内购 
+#!author =Eric
+#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png
+#!url= https://raw.githubusercontent.com/MCdasheng/Module/main/Unlock_Pro.plugin
 
 [Script]
 http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers\/(\$RCAnonymousID%)?([\u4E00-\u9FA5A-Za-z0-9-_]+))$ script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/revenuecat.js,requires-body=1,timeout=10,tag=Pro
