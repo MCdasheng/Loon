@@ -11,4 +11,4 @@ http-response https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https
 
 
 [MITM]
-hostname = api.revenuecat.com,buy.itunes.apple.com
+hostname = api.revenuecat.com,buy.itunes.apple.com,restore-access.indream.app
