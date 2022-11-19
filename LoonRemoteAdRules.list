@@ -1,0 +1,7 @@
+# NAME: Remote 🚫AD Rules
+# DESCRIPTION: 自用去广告
+# url = https://raw.githubusercontent.com/MCdasheng/Module/main/LoonRemoteAdRules.list
+
+# HDOBOX 去广告
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
