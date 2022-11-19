@@ -1,7 +1,7 @@
 /**
  自用改写(未成功)
  url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/Testflight.js
- https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js
+ * src = https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js
  * 参考chavyleung和NobyDa的写法
  * 写入要监测的公测tf appkey，当有空位的时候会弹出通知。
  * 建议task时间间隔小点。
