@@ -13,12 +13,11 @@ let apps = [
   "1443988620 us",
   "1373567447 us",
   "1459749978 us",
-  
 ]; //app跟踪id
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
 }
-let reg = "cn"; //默认区域：美国us 中国cn 香港hk
+let reg = "us"; //默认区域：美国us 中国cn 香港hk
 if ($.read("reg") != "" && $.read("reg") != undefined) {
   reg = $.read("reg");
 }
