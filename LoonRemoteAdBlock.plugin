@@ -1,6 +1,6 @@
-# NAME: Remote 🚫AD Rules
+# NAME: RemoteADBlock
 # DESCRIPTION: 自用去广告
-# url = https://raw.githubusercontent.com/MCdasheng/Module/main/LoonRemoteAdRules.list
+# url = https://raw.githubusercontent.com/MCdasheng/Module/main/LoonRemoteAdBlock.plugin
 
 [Rule]
 # HDOBOX 去广告
