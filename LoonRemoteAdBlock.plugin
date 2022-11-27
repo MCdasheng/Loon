@@ -1,5 +1,6 @@
-# NAME: RemoteADBlock
-# DESCRIPTION: 自用去广告
+#!name= Remote AdBlock
+#!desc= 🚫AD
+#!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
 # url = https://raw.githubusercontent.com/MCdasheng/Module/main/LoonRemoteAdBlock.plugin
 
 [Rule]
