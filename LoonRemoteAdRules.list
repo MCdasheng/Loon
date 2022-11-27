@@ -2,6 +2,14 @@
 # DESCRIPTION: 自用去广告
 # url = https://raw.githubusercontent.com/MCdasheng/Module/main/LoonRemoteAdRules.list
 
+[Rule]
 # HDOBOX 去广告
-DOMAIN-SUFFIX,applovin.com
-DOMAIN-SUFFIX,applvn.com
+DOMAIN-SUFFIX,applovin.com,REJECT
+DOMAIN-SUFFIX,applvn.com,REJECT
+
+[URL Rewrite]
+# 鸭奈飞去开屏广告
+^http?:\/\/pipi\.4kya\.com/\/xgapp\.php\/v3\/advert.position.[^2](?<=position..) - reject
+
+[MITM]
+hostname = pipi.4kya.com
