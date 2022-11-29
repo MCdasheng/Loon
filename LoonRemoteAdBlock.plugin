@@ -9,8 +9,10 @@ DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,applvn.com,REJECT
 
 [URL Rewrite]
-# 鸭奈飞去开屏广告
-^http?:\/\/pipi\.4kya\.com/\/xgapp\.php\/v3\/advert.position.[^2](?<=position..) - reject
+
+[Script]
+# YaNetflix 去广告
+http-response ^http://pipi.4kya.com//xgapp.php/v3/advert script-path=https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/YaNetflix.js,requires-body=1,tag=YaNetflix
 
 [MITM]
 hostname = pipi.4kya.com
