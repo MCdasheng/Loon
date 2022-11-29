@@ -2,7 +2,7 @@
 自用备份 鸭奈飞去广告-Eric
 # url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/YaNetflix.js 
 [rewrite_local]
-^http://pipi.4kya.com//xgapp.php/v3/advert url script-response-body https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/YaNetflix.js 
+^http://pipi.4kya.com//xgapp.php/v3/advert url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/yanetflix.js
 [mitm] 
 hostname = %APPEND% pipi.4kya.com
 ***/
