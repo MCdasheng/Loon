@@ -7,8 +7,10 @@
 # HDOBOX 去广告
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,applvn.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
 
 [URL Rewrite]
+
 
 [Script]
 # YaNetflix 去广告
