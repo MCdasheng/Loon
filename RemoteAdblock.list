@@ -1,5 +1,5 @@
 # Shadowrocket Remote Adblock
-# url = https://raw.githubusercontent.com/MCdasheng/Module/main/sd_RemoteAdblock.list
+# url = https://raw.githubusercontent.com/MCdasheng/Module/main/RemoteAdblock.list
 
 # HDOBOX 去广告
 DOMAIN-SUFFIX,applvn.com,REJECT
