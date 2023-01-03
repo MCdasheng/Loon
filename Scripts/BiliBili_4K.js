@@ -4,8 +4,10 @@
 # From https://github.com/Sunert/Scripts/blob/master/Script/Bilibili/BiliHD.js
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 QX:
+[Rewrite local]
 https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body BiliHD.js
-MITM = api.bilibili.com
+[MITM] 
+hostname = api.bilibili.com
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
