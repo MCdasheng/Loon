@@ -1,12 +1,14 @@
 /*
 # 自用备份 BaiduCloud 🔐4K & 2x speed
 # !url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BaiduYun.js
-# @ddgksf2013
 # From https://github.com/ddgksf2013/Scripts/raw/master/bdcloud.js
-# [Rewrite local]
-# https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BaiduYun.js
-# [Mitm]
-# hostname = pan.baidu.com
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+QX:
+[Rewrite local]
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BaiduYun.js
+[Mitm]
+hostname = pan.baidu.com
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
 $done({
