@@ -1,14 +1,14 @@
 /*
 自用备份 BiliBili 🔐4K
-#!url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/blbl.js
+#!url = https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BLBL.js
 # From https://raw.githubusercontent.com/WeiRen0/Scripts/main/blbl.js
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 QX:
 [rewrite_local]
 #哔哩哔哩解锁大会员
-^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/blbl.js
+^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/MCdasheng/Module/main/Scripts/BLBL.js
 
-[mitm]
+[Mitm]
 hostname = *.biliapi.*, *.bilibili.*
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 */
