@@ -1,8 +1,8 @@
 /*
 作者: @mcdasheng
 脚本功能: Spotify 注册查询
-[task_local]
-  event-interaction https://raw.githubusercontent.com/MCdasheng/Loon/main/Streaming/Spotify.js, tag=Spotify注册查询, img-url=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Icons/Spotify.png
+[Script]
+  generic script-path=https://raw.githubusercontent.com/MCdasheng/Loon/main/Streaming/Spotify.js, timeout=10, tag=Spotify, img-url=https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Icons/Spotify.png
 @thanks
   https://github.com/lmc999/RegionRestrictionCheck/blob/main/check.sh
 */
