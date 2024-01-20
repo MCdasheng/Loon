@@ -1,8 +1,8 @@
 /*
 作者: @mcdasheng
 脚本功能: ChatGPT解锁查询
-[task_local]
-  event-interaction https://raw.githubusercontent.com/MCdasheng/Loon/main/Streaming/ChatGPT.js, tag=ChatGPT解锁查询, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
+[Script]
+  generic script-path=https://raw.githubusercontent.com/MCdasheng/Loon/main/Streaming/ChatGPT.js, timeout=10, img-url=https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/ChatGPT/ChatGPT4.png
 @params
   "ipinfo_token": https://ipinfo.io 官网自行申请 
 @thanks
